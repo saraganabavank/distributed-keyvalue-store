@@ -25,8 +25,8 @@ var (
 	port    = flag.Int("port", 8080, "Port number for server")
 	shard   = flag.Int("shard", 1, "No of shard for DB")
 	replica = flag.Bool("replica", false, "No of shard for DB")
-	master  = flag.Int("master", 0, "No of shard for DB")
-	host    = flag.String("host", "http://localhost:", "No of shard for DB")
+	master  = flag.Int("master", 0, "master node address")
+	host    = flag.String("host", "http://localhost:", "Domine in which process are running on")
 )
 
 func main() {
